@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.food {
+  border: 1px solid black;
+  background-color: gray;
+  padding: 0;
+  margin: 0;
+}
+
+.margin {
+  border: 15px solid white;
+}
+
+h2 {
+  border: 1px solid black;
+  text-align: center;
+  padding: 5px;
+  margin: 0;
+  width: 33.33%;
+  float: right;
+}
+
+p {
+  padding: 10px;
+  clear: right;
+}
+
+.chicken {
+  background-color: palevioletred;
+  overflow: hidden;
+}
+
+.beef {
+  background-color: maroon;
+  color: beige;
+}
+
+.sushi {
+  background-color: khaki;
+}
+
+@media (min-width: 992px) {
+  .margin {
+    width: 33.33%;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .margin1,
+  .margin2 {
+    width: 50%;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .margin3 {
+    width: 100%;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .margin {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 411px) {
+  h2 {
+    width: 50%;
+  }
+}
