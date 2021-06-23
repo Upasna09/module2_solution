@@ -26,7 +26,8 @@ h2 {
   text-align: center;
   padding: 5px;
   margin: 0;
-  width: 33.33%;
+  width: 160px;
+  position: relative;
   float: right;
 }
 
